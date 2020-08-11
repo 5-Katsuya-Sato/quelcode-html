@@ -170,7 +170,7 @@ h3 {
 }
 
 .strategy {
-    width: 820px;
+    width: 800px;
     height: 620px;
     margin-top: 30px;
 }
@@ -209,7 +209,7 @@ h3 {
     list-style: none;
     display: flex;
     margin-bottom: 45px;
-    padding: 0px;
+    padding: 0;
 }
 
 .tr {
@@ -239,6 +239,9 @@ h3 {
     height: 7px;
 }
 
+.include-transfer {
+    width: 800
+}
 .strength-of-nri {
     width: 800px;
     height: 240px;
