@@ -173,7 +173,9 @@ h3 {
     content: '';
     background-image: url(blue-icon.png);
     background-size: contain;
-    padding-left: 20px;
+    height: 25px;
+    width: 25px;
+    display: inline-block;
     background-repeat: no-repeat;
     margin-right: 10px;
     vertical-align: middle;
