@@ -179,6 +179,7 @@ h3 {
     background-repeat: no-repeat;
     margin-right: 10px;
     vertical-align: middle;
+    padding-bottom: 5px;
 }
 
 .explanation {
@@ -240,6 +241,7 @@ h3 {
     background-repeat: no-repeat;
     vertical-align: middle;
     display: inline-block;
+    margin-right: 5px;
     width: 8px;
     height: 8px;
 }
@@ -251,6 +253,7 @@ h3 {
     background-repeat: no-repeat;
     vertical-align: middle;
     display: inline-block;
+    margin-left: 5px;
     width: 7px;
     height: 7px;
 }
