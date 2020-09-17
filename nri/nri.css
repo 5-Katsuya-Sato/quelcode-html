@@ -567,3 +567,8 @@ h3 {
     font-size: 11px;
     padding-top: 10px;
 }
+
+.fab:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
