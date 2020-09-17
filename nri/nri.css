@@ -388,17 +388,16 @@ h3 {
     padding: 25px 0 15px 0;
 }
 
-
+/* ここらへんで、左側に揃えるように出来るのはず。 */
 .topic h3 {
     padding: 35px 0 0 0;
     border-top: #999999 dotted 1px;
 }
 
-/*display-flexを、どうやって幅感をいい感じにしてやるのかを調べる。％使うんだっけか。Just do it first!*/
 .topic ul {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    padding-left: 0;
 }
 
 .topic li {
