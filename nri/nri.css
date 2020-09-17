@@ -91,15 +91,24 @@ h3 {
 }
 
 .header-main ul {
-    font-size: 12px;
+    font-size: 11px;
     color: gray;
     list-style: none;
     display: flex;
-    width: 390px;
+    width: 370px;
     height: 35px;
     justify-content: space-between;
-    margin-left: 50px;
 }
+
+.header-main .only::after{
+    content: ">";
+    font-size: 8px;
+    color: gray;
+    width: 5px;
+    height:5px;
+    margin:0 5px;
+}
+
 
 
 .connection {
@@ -313,7 +322,7 @@ h3 {
     border: solid  1px #CCCCCC;
 }
 
-.strength li {
+.strength_ li {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -379,6 +388,7 @@ h3 {
     padding: 25px 0 15px 0;
 }
 
+
 .topic h3 {
     padding: 35px 0 0 0;
     border-top: #999999 dotted 1px;
@@ -388,6 +398,7 @@ h3 {
 .topic ul {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .topic li {
@@ -395,7 +406,6 @@ h3 {
     width: 25%;
     padding-bottom: 15px;
     list-style: none;
-    margin: 0;
 }
 
 .topic li::before {
