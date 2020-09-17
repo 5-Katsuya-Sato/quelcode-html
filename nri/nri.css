@@ -116,7 +116,7 @@ h3 {
 .header-sns {
     width: 800px;
     display: flex;
-    margin-left: 22%;
+    margin: 0 auto;
     padding-top: 10px;
     padding-left:617px;
     
@@ -161,8 +161,7 @@ h3 {
 
 .container-upper-main {
     width: 800px;
-    margin-right: 22%;
-    margin-left: 22%;
+    margin: 0 auto;
 }
 
 .strategy-of-business {
