@@ -388,7 +388,6 @@ h3 {
     padding: 25px 0 15px 0;
 }
 
-/* ここらへんで、左側に揃えるように出来るのはず。 */
 .topic h3 {
     padding: 35px 0 0 0;
     border-top: #999999 dotted 1px;
@@ -491,7 +490,6 @@ h3 {
     height: 30px;
 }
 
-/*これ入れたら、topicの部分両端短くなった*/
 .site-map-container {
     width: 90%;
     margin: 0 5%;
@@ -529,7 +527,6 @@ h3 {
     list-style: none;
 }
 
-/*講師の方に、なぜココのliにはpaddingが適応されるのか効く*/
 .topic-bottom li {   
     padding-bottom: 15px;
     font-size: 14px; 
@@ -561,7 +558,6 @@ h3 {
     list-style: none;
 }
 
-/*なぜこのliにinline-blockをいれると、横並びになってしまうのか*/
 .mass li {
     font-size: 16px;
     font-weight: bold;
@@ -587,7 +583,6 @@ h3 {
     line-height: 12px;
 }
 
-/*liの先頭とか、一番最後だけにcssを適応させる方法を確認する*/
 .footer-wrapper li {
     font-size: 12px;
     padding: 0 18px;
@@ -614,16 +609,3 @@ h3 {
     cursor: pointer;
     opacity: 0.5;
 }
-
-
-/* nriの強みの部分 */
-/* .strength a::before {
-    content: '';
-    background-image: url(connection-right.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    vertical-align: middle;
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-} */
